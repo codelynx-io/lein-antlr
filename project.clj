@@ -1,7 +1,7 @@
-(defproject lein-antlr "0.3.0"
+(defproject lein-antlr "0.4.0"
   :description "Generate source code from ANTLR grammars in Leiningen."
-  :dependencies [[org.antlr/antlr4 "4.5"]]
-  :profile {:dev {:dependencies [[org.clojure/clojure "1.4.0"]]}}
+  :dependencies [[org.antlr/antlr4 "4.10"]]
+  :profile {:dev {:dependencies [[org.clojure/clojure "1.11.1"]]}}
   :url "http://github.com/alexhall/lein-antlr"
   :eval-in-leiningen true
   :license {:name "Apache Software License, Version 2.0"
